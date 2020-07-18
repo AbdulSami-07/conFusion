@@ -1,0 +1,33 @@
+$bg-header : #512DAB;
+$bg-body : #9575cd;
+$text : floralwhite;
+
+
+#loginModal {
+    .modal-header{
+        background: $bg-header;
+        color : $text;
+
+        .close{
+            color : $text;
+        }    
+    }
+    .modal-body{
+        background : $bg-body;
+    }
+}
+
+#ReservationModal {
+    .modal-header{
+        background: $bg-header;
+        color : $text;
+
+        .close {
+            color: $text;
+        }
+    }
+    .modal-body{
+        background : $bg-body;
+
+    }
+}
